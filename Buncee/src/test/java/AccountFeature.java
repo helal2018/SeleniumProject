@@ -1,3 +1,4 @@
+import net.bytebuddy.implementation.bind.MethodDelegationBinder;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -21,16 +22,17 @@ public class AccountFeature extends SubBase {
             takeTheScreenshot(new Object().getClass().getEnclosingMethod().getName());
 
         } finally {
-
+            System.out.print("This is the logout account");
         }
 
     }
 
-//@Test (priority = 2, enabled = false)
-//    public void logout() throws InterruptedException {
-//    loginToAccount();
-//    logoutToAccount();
-//}
+@Test (priority = 2, enabled = false)
+    public void logout() throws InterruptedException {
+    loginToAccount();
+    logoutToAccount();
+
+}
 //
 //    @Test (priority = 3, enabled = false)
 //    public void addAddress() throws InterruptedException {
