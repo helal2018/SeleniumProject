@@ -22,7 +22,7 @@ public class AccountFeature extends SubBase {
             takeTheScreenshot(new Object().getClass().getEnclosingMethod().getName());
 
         } finally {
-            System.out.print("This is the logout account");
+            System.out.print("This is the login account");
         }
 
     }
