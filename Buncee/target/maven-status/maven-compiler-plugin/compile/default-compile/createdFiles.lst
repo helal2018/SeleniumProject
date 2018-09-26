@@ -1,0 +1,9 @@
+pageobject\AboutUsPage.class
+pageobject\CartPage.class
+pageobject\HomePage.class
+pageobject\ProductDetailPage.class
+pageobject\AccountPage.class
+pageobject\ProductListingPage.class
+pageobject\CheckoutPage.class
+SubBase.class
+pageobject\LiveChatPage.class

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Chase App running on Firefox Browser" duration-ms="126157" started-at="2018-09-22T15:45:12Z" finished-at="2018-09-22T15:47:18Z">
+    <groups>
+    </groups>
+    <test name="Home Page" duration-ms="126157" started-at="2018-09-22T15:45:12Z" finished-at="2018-09-22T15:47:18Z">
+      <class name="AccountFeature">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AccountFeature@fa4c865]" name="setUp" is-config="true" duration-ms="40584" started-at="2018-09-22T15:45:12Z" finished-at="2018-09-22T15:45:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mdalam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://app.edu.buncee.com/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrom]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[45.0.2454.93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:AccountFeature@fa4c865]" name="login" duration-ms="21550" started-at="2018-09-22T15:45:53Z" finished-at="2018-09-22T15:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:AccountFeature@fa4c865]" name="cleanUp" is-config="true" duration-ms="1575" started-at="2018-09-22T15:46:15Z" finished-at="2018-09-22T15:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AccountFeature@fa4c865]" name="setUp" is-config="true" duration-ms="22991" started-at="2018-09-22T15:46:16Z" finished-at="2018-09-22T15:46:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mdalam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://app.edu.buncee.com/]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrom]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[45.0.2454.93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:AccountFeature@fa4c865]" name="logout" duration-ms="37621" started-at="2018-09-22T15:46:39Z" finished-at="2018-09-22T15:47:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:AccountFeature@fa4c865]" name="cleanUp" is-config="true" duration-ms="1664" started-at="2018-09-22T15:47:17Z" finished-at="2018-09-22T15:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- AccountFeature -->
+    </test> <!-- Home Page -->
+  </suite> <!-- Chase App running on Firefox Browser -->
+</testng-results>
